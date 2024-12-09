@@ -13,6 +13,6 @@ def sum_of_integers(num):
     else:
         return num + sum_of_integers(num - 1) #ADDS THE NUM (ARGUMENT) TO THE SUM OF INTEGERS
 
-# Example usage
+#EXAMPLE
 result = sum_of_integers(50)
 print(result)
